@@ -3,33 +3,18 @@ class RepliesController < ApplicationController
   # GET /replies.json
   def index
     @replies = Reply.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @replies }
-    end
   end
 
   # GET /replies/1
   # GET /replies/1.json
   def show
     @reply = Reply.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @reply }
-    end
   end
 
   # GET /replies/new
   # GET /replies/new.json
   def new
     @reply = Reply.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @reply }
-    end
   end
 
   # GET /replies/1/edit
