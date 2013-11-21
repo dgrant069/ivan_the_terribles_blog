@@ -3,6 +3,7 @@ class CommentsController < ApplicationController
   # GET /comments.json
   def index
     @comments = Comment.includes(:replies).all
+  end
 
   # GET /comments/1
   # GET /comments/1.json
