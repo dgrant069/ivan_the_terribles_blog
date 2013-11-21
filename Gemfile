@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'metric_fu'
 gem "bullet", :group => "development"
 
 # Bundle edge Rails instead:
@@ -31,6 +30,7 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-debugger'
   gem 'hirb'
+  gem 'metric_fu'
 end
 
 group :test do
