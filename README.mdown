@@ -1,4 +1,6 @@
 # My New Blog!
+Security fix:
+![screenshot](/public/ivan_t_b_brakeman.png)
 
 I've got a lot to say, and now I have a place to say it!!!!!
 
